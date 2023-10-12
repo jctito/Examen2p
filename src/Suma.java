@@ -2,8 +2,8 @@
     public class Suma {
         //ATRIBUTOS
 
-        int sument1,sument2;
-        double sumdou1,sumdou2,sumdou3,total;
+        int suma1,suma2;
+        double suma1_1,suma2_2,suma3_3,total;
 
         public Suma() {
 
@@ -17,66 +17,73 @@
             this.total = total;
         }
 
-        public int getSument1() {
-            return sument1;
+        public int getSuma1() {
+            return suma1;
         }
 
-        public void setSument1(int sument1) {
-            this.sument1 = sument1;
+        public void setSument1(int suma1) {
+            this.suma1 = suma1;
         }
 
-        public int getSument2() {
-            return sument2;
+        public int getSuma2() {
+            return suma2;
         }
 
-        public void setSument2(int sument2) {
-            this.sument2 = sument2;
+        public void setSuma2(int suma2) {
+            this.suma2 = suma2;
         }
 
-        public double getSumdou1() {
-            return sumdou1;
+        public double getSuma1_1() {
+            return suma1_1;
         }
 
-        public void setSumdou1(double sumdou1) {
-            this.sumdou1 = sumdou1;
+        public void setSuma1_1(double suma1_1) {
+            this.suma1_1 = suma1_1;
         }
 
-        public double getSumdou2() {
-            return sumdou2;
+        public double getSuma2_2() {
+            return suma2_2;
         }
 
-        public void setSumdou2(double sumdou2) {
-            this.sumdou2 = sumdou2;
+        public void setSuma2_2(double suma2_2) {
+            this.suma2_2 = suma2_2;
         }
 
-        public double getSumdou3() {
-            return sumdou3;
+        public double getSuma3_3() {
+            return suma3_3;
         }
 
-        public void setSumdou3(double sumdou3) {
-            this.sumdou3 = sumdou3;
+        public void setSuma3_3(double suma3_3) {
+            this.suma3_3 = suma3_3;
         }
         //  
-        public Suma(int sument1, int sument2, double sumdou1, double sumdou2, double sumdou3,double total) {
-            this.sument1 = sument1;
-            this.sument2 = sument2;
-            this.sumdou1 = sumdou1;
-            this.sumdou2 = sumdou2;
-            this.sumdou3 = sumdou3;
+        public Suma(int suma1, int suma2, double suma1_1, double suma2_2, double suma3_3,double total) {
+            this.suma1 = suma1;
+            this.suma2 = suma2;
+            this.suma1_1 = suma1_1;
+            this.suma2_2 = suma2_2;
+            this.suma3_3 = suma3_3;
             this.total= total;
         }
 // imprimir datos
-        public void calcularSuma(int sument1,int sument2){
-            total=sument1+sument2;
+        public void calcularSuma(int suma1,int suma2){
+            total=suma1+suma2;
             System.out.println("La suma de los enteros es: "+ total);
         }
-        public void calcularSuma(double sumdou1,double sumdou2){
-            total=sumdou1+sumdou2;
+        public void calcularSuma(int suma1,int suma2,int suma3){
+            total=suma1+suma2+suma3;
+            System.out.println("La suma de los tres enteros es: "+ total);
+        }
+        public void calcularSuma(double suma1_1,double suma2_2){
+            total=suma1_1+suma2_2;
             System.out.println("La suma de los dos valores es: "+total);
         }
-        public void calcularSuma(double sumdou1,double sumdou2, double sumdou3){
-            total=sumdou1+sumdou2+sumdou3;
+        public void calcularSuma(double suma1_1,double suma2_2, double suma3_3){
+            total=suma1_1+suma2_2+suma3_3;
             System.out.println("La suma de los tres valores es: "+total);
+
+
+
         }
     }
 

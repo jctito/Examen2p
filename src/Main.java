@@ -4,10 +4,12 @@ public class Main {
     public static void main(String[] args) {
        Suma suma1 = new Suma();
        suma1.calcularSuma(115, 52);
-       Suma suma2 = new Suma();
-       suma2.calcularSuma(10.5, 52.5);
+       Suma suma2 =new Suma();
+       suma2.calcularSuma(10,22,44);
        Suma suma3 = new Suma();
-       suma3.calcularSuma(52.5, 78, 785);
+       suma3.calcularSuma(10.5, 52.5);
+       Suma suma4 = new Suma();
+       suma4.calcularSuma(52.5, 78, 785);
     }
 
 }
